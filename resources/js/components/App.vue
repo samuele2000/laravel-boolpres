@@ -3,7 +3,9 @@
         <Header/>
         <main >
             <div class="container">
-                <Post/>
+             
+
+                <router-view></router-view>
             </div>
         </main>
     </div>
