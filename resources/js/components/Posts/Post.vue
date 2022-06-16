@@ -8,6 +8,7 @@
             <div class="card-body text-dark">
                 <h5 class="card-title">{{post.title}}</h5>
                 <p class="card-text">{{post.description}}</p>
+                <router-link :to="{name:'post-detail', params: {id: post.id}}" class="btn btn-primary">Articolo completo</router-link>
             </div>
         </div>
     </div>
